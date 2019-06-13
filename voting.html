@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<meta charset="UTF-8">
+	<title> Voting</title>
+<!-- <link rel="stylesheet" type="text/css" href="js/bootstrap.min.css"> -->
+
+ <link rel="stylesheet" type="text/css" href="viz/css/style.css">
+<link rel="stylesheet" type="text/css" href="viz/css/d3-tip.css">
+ <script type="text/javascript" src="viz/js/lib/jquery.min.js"></script>
+</head>
+
+<body >
+
+	
+	<h1>
+			<a href="https://en.wikipedia.org/wiki/Voting" target= "blank" >Interactive Visualization for the Comprehension of Voting Systems </a>
+		</h1>
+	
+		<div id = "Bchart" class="div4Bchart" ></div>
+		<!-- <div id = "winner"></div> -->
+		
+		<div id = "form1" class="div4selction" >
+			<label> Sorting Order :
+					<select id= "selectOrder" class= "order" >
+						<option value= "Left2Right">Left to Right</option>
+						<option value= "Random">Random</option>
+						<option value ="Winner to Loser Order" >Winner to Loser Order</option>
+						<option value= "Official Order">Official Order</option>
+						<option value = "Alphabetical Order">Alphabetical Order</option>
+						
+					</select>
+			</label>
+	
+			<label class="ScoringVector">		Scoring Vector :
+					<select id= "scoringVector" class= "order" >
+						<option value= "Plurality">Plurality</option>
+						<option value= "BordaScore">BordaScore</option>
+						<option value= "K-Approval">K-Approval</option>
+						<option value= "Veto">Veto</option>
+	
+					</select>
+			</label>
+		
+			<label class="RangeSlider">	K's value  :
+					<input type="range"  class="slider" min="1" max="11" value="None">
+	
+					<span  class="slider_label"></span>
+					
+			</label> 
+	  		
+	
+			
+		</div>
+	
+	
+
+ <!-- <script type="text/javascript" src="http://d3js.org/d3.v4.js"></script> -->
+
+ <script type="text/javascript" src= "viz/js/lib/bootstrap.min.js"></script>
+ <script type="text/javascript" src="viz/js/lib/d3-v5.min.js"></script>
+  <script type= "text/javascript"  src="viz/js/lib/d3-tip.js"></script>
+	
+ <script type= "text/javascript" src="viz/js/voting.js"></script>
+
+ </body>
+</html>
+
