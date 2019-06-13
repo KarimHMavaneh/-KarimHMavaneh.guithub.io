@@ -1,0 +1,60 @@
+h1{
+	
+	background: #e2d3b1;
+	text-decoration: underline;
+	font-size: 30px;
+	font-family: "Times New Roman";
+	border: 5px solid #992672;
+	padding:  20px 100px ;
+	margin: 20px 50px ;
+	height:auto;
+	width: auto ;
+}
+body {
+		font-size: 20px;
+		background: #e8e7de;
+		width:98%;
+		height:  80%;
+	}
+	
+.barclass:hover{
+	fill: #08ff00;
+
+}
+
+h1 a {
+	color: #2140dd;
+}
+#form1{
+	padding-left: 50px;
+	padding-top: 20px;
+
+}
+.div4selction{
+			height:80px;
+			width: 91.3% ;
+			margin :5px 50px auto;
+			border:3px solid #992672;
+}
+/*.div4Bchart{
+	height:170%;
+	width: 190%;
+}*/
+
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+   width: 30%; /* Full-width */
+  height: 5px; /* Specified height */
+  background: #023782; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 1; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .1s; /* 0.2 seconds transition on hover */
+  transition: opacity .1s;
+}
+
+.RangeSlider{
+	padding: 10px ;
+}
+.ScoringVector{
+	padding: 10px ;
+}
